@@ -135,8 +135,8 @@ head(rowData(se))
     *   Destaining using a light hydrochloric acid / ethanol wash sequence.
 
 #### Related Resources
-*   [[Visium_HD_Workflow#Page 2: Product Introduction|Visium_HD_Workflow.md: Sectioning & Slide Preparation]]
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 7: Workflow & QC Requirements|Spatial_Transcriptomics_Sequencing_Service.md: Tissue and Specimen QC Requirements]]
+*   [[Visium_HD_Workflow_Extraction#Page 2: Product Introduction|Visium_HD_Workflow_Extraction.md: Sectioning & Slide Preparation]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 7: Workflow & QC Requirements|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: Tissue and Specimen QC Requirements]]
 
 ---
 
@@ -163,8 +163,8 @@ Spatial Capture Barcode Primer Design:
     *   Performing on-slide chemical elution using potassium hydroxide ($\text{KOH}$) and neutralisation with $1\ \text{M}$ Tris-HCl (pH 7.0).
 
 #### Related Resources
-*   [[Visium_HD_Workflow#Page 8 (Slide 9): Visium HD Cassette Kit|Visium_HD_Workflow.md: CytAssist Cassette Setup & Run Details]]
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 4: Workflow Overview|Spatial_Transcriptomics_Sequencing_Service.md: CytAssist Transfer Overview]]
+*   [[Visium_HD_Workflow_Extraction#Page 8 (Slide 9): Visium HD Cassette Kit|Visium_HD_Workflow_Extraction.md: CytAssist Cassette Setup & Run Details]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 4: Workflow Overview|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: CytAssist Transfer Overview]]
 
 ---
 
@@ -197,8 +197,8 @@ $$\text{Required Reads} = \text{Capture Area Coverage \%} \times \text{Minimum P
         *   **Read 2**: $75$ cycles (captures cDNA insert).
 
 #### Related Resources
-*   [[Visium_HD_Workflow#Page 10 (Slide 11): Reagent Kits|Visium_HD_Workflow.md: Library Construction Reagents & Thermal Cycling Parameters]]
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 7: Workflow & QC Requirements|Spatial_Transcriptomics_Sequencing_Service.md: NovaSeq Sequencing Setup and Platforms]]
+*   [[Visium_HD_Workflow_Extraction#Page 10 (Slide 11): Reagent Kits|Visium_HD_Workflow_Extraction.md: Library Construction Reagents & Thermal Cycling Parameters]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 7: Workflow & QC Requirements|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: NovaSeq Sequencing Setup and Platforms]]
 
 ---
 
@@ -233,7 +233,7 @@ $$\text{Required Reads} = \text{Capture Area Coverage \%} \times \text{Minimum P
     *   Inspecting alignment logs to verify tissue detection and spot registration overlay.
 
 #### Related Resources
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 9: Space Ranger Summary Report - Metrics|Spatial_Transcriptomics_Sequencing_Service.md: Space Ranger Web Summary Metric Definitions]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 9: Space Ranger Summary Report - Metrics|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: Space Ranger Web Summary Metric Definitions]]
 
 ---
 
@@ -253,7 +253,7 @@ $$\text{Required Reads} = \text{Capture Area Coverage \%} \times \text{Minimum P
     *   Running differential expression inside Loupe to identify local tissue layer marker genes.
 
 #### Related Resources
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 11: Loupe Browser - Aggregation|Spatial_Transcriptomics_Sequencing_Service.md: Loupe Cluster Visualizations and Differential Genes]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 11: Loupe Browser - Aggregation|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: Loupe Cluster Visualizations and Differential Genes]]
 
 ---
 
@@ -420,7 +420,7 @@ SpatialExperiment Structure:
         ```
 
 #### Related Resources
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 17: Cell Annotation Resources|Spatial_Transcriptomics_Sequencing_Service.md: Cell Annotation Tools and Deconvolution References]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 17: Cell Annotation Resources|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: Cell Annotation Tools and Deconvolution References]]
 
 ---
 
@@ -453,7 +453,7 @@ R_j is Receptor expression at spot j, d_ij is spatial distance, d_max is decay l
         ```
 
 #### Related Resources
-*   [[Spatial_Transcriptomics_Sequencing_Service#Page 25: Cell-Cell Communication (CellChat)|Spatial_Transcriptomics_Sequencing_Service.md: CellChat Communication Probabilities & Role Analysis]]
+*   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 25: Cell-Cell Communication (CellChat)|Spatial_Transcriptomics_Sequencing_Service_Extraction.md: CellChat Communication Probabilities & Role Analysis]]
 
 ---
 
@@ -526,18 +526,18 @@ R_j is Receptor expression at spot j, d_ij is spatial distance, d_max is decay l
 For comprehensive reference material, check the underlying documentation source files directly:
 
 *   **Wet-Lab Protocols & Platforms**:
-    *   [[Visium_HD_Workflow|Visium_HD_Workflow.md]]
-        *   [[Visium_HD_Workflow#Page 2: Product Introduction|Product & Workflow Overview]]
-        *   [[Visium_HD_Workflow#Page 6 (Slide 6): Components, Shipping, and Storage|Kit Storage & Shipping Temperatures]]
-        *   [[Visium_HD_Workflow#Page 17 (Slide 20): Tested Glass Slides|Glass Slide & Tissue QC Allowances]]
-        *   [[Visium_HD_Workflow#Page 36 (Slide 41): Step 3: Poly(A) RNA Capture, RT, & Denaturation (Capture)|On-Slide RT, Denaturation & Elution Protocols]]
-        *   [[Visium_HD_Workflow#Page 41 (Slide 46): Step 6: Library Construction (Fragmentation, End Repair, & A-tailing)|Library Fragmentation & Sample Indexing Cycles]]
-    *   [[Spatial_Transcriptomics_Sequencing_Service|Spatial_Transcriptomics_Sequencing_Service.md]]
-        *   [[Spatial_Transcriptomics_Sequencing_Service#Page 6: Comparison of Visium Types|Visium Platform Comparisons & Resolutions]]
-        *   [[Spatial_Transcriptomics_Sequencing_Service#Page 7: Workflow & QC Requirements|Sequencing QC Requirements & Platforms]]
-        *   [[Spatial_Transcriptomics_Sequencing_Service#Page 9: Space Ranger Summary Report - Metrics|Space Ranger Summary Metrics]]
-        *   [[Spatial_Transcriptomics_Sequencing_Service#Page 11: Loupe Browser - Aggregation|Loupe Browser Cluster Interpretations]]
-        *   [[Spatial_Transcriptomics_Sequencing_Service#Page 25: Cell-Cell Communication (CellChat)|CellChat Ligand-Receptor Communications]]
+    *   [[Visium_HD_Workflow_Extraction|Visium_HD_Workflow_Extraction.md]]
+        *   [[Visium_HD_Workflow_Extraction#Page 2: Product Introduction|Product & Workflow Overview]]
+        *   [[Visium_HD_Workflow_Extraction#Page 6 (Slide 6): Components, Shipping, and Storage|Kit Storage & Shipping Temperatures]]
+        *   [[Visium_HD_Workflow_Extraction#Page 17 (Slide 20): Tested Glass Slides|Glass Slide & Tissue QC Allowances]]
+        *   [[Visium_HD_Workflow_Extraction#Page 36 (Slide 41): Step 3: Poly(A) RNA Capture, RT, & Denaturation (Capture)|On-Slide RT, Denaturation & Elution Protocols]]
+        *   [[Visium_HD_Workflow_Extraction#Page 41 (Slide 46): Step 6: Library Construction (Fragmentation, End Repair, & A-tailing)|Library Fragmentation & Sample Indexing Cycles]]
+    *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction|Spatial_Transcriptomics_Sequencing_Service_Extraction.md]]
+        *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 6: Comparison of Visium Types|Visium Platform Comparisons & Resolutions]]
+        *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 7: Workflow & QC Requirements|Sequencing QC Requirements & Platforms]]
+        *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 9: Space Ranger Summary Report - Metrics|Space Ranger Summary Metrics]]
+        *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 11: Loupe Browser - Aggregation|Loupe Browser Cluster Interpretations]]
+        *   [[Spatial_Transcriptomics_Sequencing_Service_Extraction#Page 25: Cell-Cell Communication (CellChat)|CellChat Ligand-Receptor Communications]]
 *   **R/Bioconductor Computational Code**:
     *   [[practical-session-1|practical-session-1.md]]
         *   [[practical-session-1#1.4.1 SpatialExperiment class|SpatialExperiment Container Architecture]]

@@ -31,8 +31,8 @@ The program covers five key phases (comprising Modules 0 to 12) from tissue sect
 │   │   ├── practical-session-1.md - practical-session-4.md # Hands-on tutorials
 │   │   └── references.md    # Course references
 │   │
-│   ├── Visium_HD_Workflow.md # Site Prep and workflow notes (10x Genomics)
-│   ├── Spatial_Transcriptomics_Sequencing_Service.md # Sequencing service notes (Tri-I)
+│   ├── Visium_HD_Workflow_Extraction.md # Site Prep and workflow notes (10x Genomics)
+│   ├── Spatial_Transcriptomics_Sequencing_Service_Extraction.md # Sequencing service notes (Tri-I)
 │   └── _pdf/                # Source PDF documents
 │
 └── _legacy/                 # Scraped data tables and python scraping scripts
