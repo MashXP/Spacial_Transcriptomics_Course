@@ -1,0 +1,7 @@
+_legacy
+scratch
+best_practices_pdf
+.agents/credentials/
+credentials/
+*.json
+raw

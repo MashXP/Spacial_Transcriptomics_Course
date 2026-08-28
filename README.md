@@ -52,3 +52,4 @@ This repository is designed with Obsidian-style internal WikiLinks to navigate s
 * Refer to the [PDF Processing SOP](./docs/extraction_guide.md) to understand how reference summaries are verified.
 * Open the [Complete Syllabus](./docs/syllabus.md) for theory deep-dives and practice exercises.
 * Check the hands-on sessions in [Zormpas Course Tutorials](./materials/Zormpas_et_all_ST_course/index.md) to step through R script runs.
+* Read the [Programming for Spatial Transcriptomics Course](./02_Programming/00_Course_Introduction.md) for R coding basics, Git/GitHub version control, defensive programming, and micromamba environment configurations.
